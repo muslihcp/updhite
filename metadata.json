@@ -1,0 +1,6 @@
+{
+  "name": "Darul Huda Islamic University — Work Management System",
+  "description": "Centralized campus construction, maintenance, cleaning, plumbing, and electrical work management system for Darul Huda Islamic University.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

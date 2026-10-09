@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-main",
+      "username": "adminmuslih",
+      "fullName": "Main Administrator",
+      "role": "main_admin",
+      "category": "admin",
+      "phoneNumber": "+918136867930",
+      "createdAt": "2026-10-09T02:36:47.797Z",
+      "salt": "3d4fbcf77c704b94fc8f8c00a20f92f9",
+      "passwordHash": "d1c2fb9c00a37c2c70be599ca3f036950871f530d71b59c524a1bdc74381fc9b69833f81690ead61f4969f3086c316936a361661636972d7eecdaf0bdb168191"
+    },
+    {
+      "id": "usr-f4301c37c93f",
+      "username": "chsuser",
+      "fullName": "Irfan kp",
+      "role": "section_office",
+      "category": "office_usage",
+      "sectionId": "section_1",
+      "sectionCustomName": "CHS",
+      "createdAt": "2026-10-09T04:21:54.330Z",
+      "salt": "f5b3c36fab212ea281f4bf5855ddb0a6",
+      "passwordHash": "29edc87a06b1202a992c58530111b8129be9f36069d9afd9367e1588930126298b0be20c311ec2fe8f13c427a87c1386af6a504aac64f206eaffb50f8ee2f481"
+    },
+    {
+      "id": "usr-70de7b14a73a",
+      "username": "workuser",
+      "fullName": "Fauzan M",
+      "role": "electrician",
+      "category": "worker_usage",
+      "createdAt": "2026-10-09T04:25:10.643Z",
+      "salt": "d5f4fbdc23382dff5dd036e16fca9fe6",
+      "passwordHash": "2dddd46dc5e167e645bd9918115e2b95c9775a60ab9d3fad5d576c7da76623cf1a077ce938b670e25e558158d597750721786bef9055761182b6dcc8bdba03ae"
+    },
+    {
+      "id": "usr-0815715e30ce",
+      "username": "offficeuser",
+      "fullName": "Thameem NT",
+      "role": "office_usage",
+      "category": "office_usage",
+      "createdAt": "2026-10-09T04:26:49.161Z",
+      "salt": "2dba3e3ff585cb75bc27ea5d5a0d6b25",
+      "passwordHash": "110774c93f90a2756c79176c933c20fd01798024a1241f261f43a62789a8b8d94674bb4e522419d31380d420cbbd899e21d691445f28fbe9b39948107513c527"
+    }
+  ],
+  "sections": [
+    {
+      "id": "section_1",
+      "name": "CHS",
+      "code": "SEC-1",
+      "contactNumber": "",
+      "description": "Section 1 Campus Area"
+    },
+    {
+      "id": "section_2",
+      "name": "Section Office 2",
+      "code": "SEC-2",
+      "contactNumber": "",
+      "description": "Section 2 Campus Area"
+    },
+    {
+      "id": "section_3",
+      "name": "Section Office 3",
+      "code": "SEC-3",
+      "contactNumber": "",
+      "description": "Section 3 Campus Area"
+    }
+  ],
+  "works": [
+    {
+      "id": "wrk-3362968d8df9",
+      "ticketNumber": "DH-2026-101",
+      "sectionId": "section_1",
+      "sectionName": "CHS",
+      "problemDescription": "Fan funcioning",
+      "campusLocation": "1st floor",
+      "workerRole": "electrician",
+      "isGuestWorker": false,
+      "urgency": "urgent",
+      "scheduleDate": "2026-10-10",
+      "scheduleTime": "Morning",
+      "assignedWorkerId": "usr-70de7b14a73a",
+      "assignedWorkerName": "Fauzan M",
+      "assignedWorkerPhone": "",
+      "sectionContactNumber": "",
+      "status": "pending",
+      "createdByUserId": "usr-f4301c37c93f",
+      "createdByUsername": "chsuser",
+      "createdAt": "2026-10-09T04:28:17.259Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-8fa2b7fe6008",
+      "type": "work_assigned",
+      "workId": "wrk-3362968d8df9",
+      "ticketNumber": "DH-2026-101",
+      "recipientRole": "electrician",
+      "recipientName": "Fauzan M",
+      "recipientPhone": "(None configured)",
+      "messageText": "UPDHITE WORK NOTICE [URGENT]: Ticket DH-2026-101. Location: 1st floor. Problem: Fan funcioning. Scheduled: 2026-10-10 (Morning). Assigned by: CHS. Contact: N/A",
+      "status": "FAILED",
+      "provider": "none",
+      "statusDetails": "Recipient has no contact phone number configured.",
+      "timestamp": "2026-10-09T04:28:17.260Z"
+    }
+  ],
+  "notifications": [],
+  "workerRoles": [
+    "cleaner",
+    "plumber",
+    "electrician"
+  ],
+  "nextTicketSeq": 102
+}
